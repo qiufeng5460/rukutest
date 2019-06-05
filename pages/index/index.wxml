@@ -6,8 +6,14 @@
   <view class="index-post-list">
     <block wx:key="id" wx:for="{{post_list}}">
        <!--20190531：将post的id设为view的id，通过bindtap传值-->
-       <view class="content-title" bindtap="toDetail" id="{{item.id}}">
-         <text>{{item.title.rendered}}</text>
+       <view class="content-list" bindtap="toDetail" id="{{item.id}}">
+         <image src="{{item.thumbnailurl}}" mode="aspectFill" class="thumbnail"></image>
+         <view class="title">
+           <text>{{item.title.rendered}}</text>
+         </view>
+         <view class="date">
+           <text>{{item.date}}</text>
+         </view>
        </view>
     </block>
     <view class="no-more" hidden="{{!is_last_page}}">--没有啦--</view>

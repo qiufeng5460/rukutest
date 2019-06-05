@@ -1,2 +1,16 @@
 /* pages/detail/detail.wxss */
 @import "../../wxParse/wxParse.wxss";
+
+.article-content{
+  font-size:32rpx;
+  line-height:64rpx;
+  letter-spacing: 1px;
+}
+
+.article-title{
+  margin-bottom:24rpx;
+  font-size:48rpx;
+  color:#3a4040;
+  font-weight:bold;
+  text-align:center;
+}

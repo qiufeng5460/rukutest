@@ -8,7 +8,7 @@ Page({
     is_last_page:false,
     page:1,
     page_count:5,
-    cat:2
+    cat:2,
   },
  
   onLoad: function () {
@@ -33,7 +33,16 @@ Page({
               self.setData({is_last_page:true});
             }  
 
-            self.setData({post_list:self.data.post_list.concat(res.data)});
+            self.setData({post_list:self.data.post_list.concat(res.data.map(function(item){
+              var strdate=item.date;
+              item.date=strdate.substr(0,10);
+              var strtitle=item.title.rendered;
+              strtitle = strtitle.replace('每周测试资讯（', '');
+              strtitle = strtitle.replace('）', '');
+              item.title.rendered=strtitle;
+              return item;
+            })),
+            });
           }
         }
         else{

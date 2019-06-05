@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.0",
 	"appid": "wx53d440851ea90e11",
-	"projectname": "%E6%AF%8F%E5%91%A8%E6%B5%8B%E8%AF%95%E8%B5%84%E8%AE%AF",
+	"projectname": "rukutest",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
