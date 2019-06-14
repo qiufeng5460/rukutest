@@ -2,7 +2,9 @@
 <view class="container">
   <view class="index-header">
     <text class="index-title">中国移动入库测试每周测试信息</text>
+    <text class="make-poster" bindtap="toPoster">生成分享图</text> 
   </view>
+  
   <view class="index-post-list">
     <block wx:key="id" wx:for="{{post_list}}">
        <!--20190531：将post的id设为view的id，通过bindtap传值-->

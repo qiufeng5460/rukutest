@@ -8,4 +8,7 @@
    <view class="article-content">
       <template is="wxParse" data="{{wxParseData:articleContent.nodes}}"/>
    </view>
+   <view class="article-footer">
+      <image src="../../images/qrbg.jpg"></image>
+   </view>
 </view>

@@ -1,0 +1,4 @@
+<!--pages/about/about.wxml-->
+<view class="make-poster">
+  <text bindtap='toPoster'>生成分享图</text>
+</view>

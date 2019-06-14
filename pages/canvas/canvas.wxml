@@ -1,0 +1,10 @@
+<!--pages/canvas/canvas.wxml-->
+
+<canvas canvas-id="shareImg" style="width:258px;height:500px;"></canvas>
+
+<view hidden="{{hidden}}" class="preview">
+   <image src="{{preurl}}" mode="widthFix"></image>
+   <button type="primary" size="mini" bindtap="save">保存分享图</button>
+</view>
+
+<button class="share" type="default" bindtap="share">生成分享图</button>

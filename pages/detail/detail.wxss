@@ -5,6 +5,7 @@
   font-size:32rpx;
   line-height:64rpx;
   letter-spacing: 1px;
+  margin:20rpx;
 }
 
 .article-title{
@@ -13,4 +14,15 @@
   color:#3a4040;
   font-weight:bold;
   text-align:center;
+}
+
+.article-footer{
+  display:flex;
+  justify-content: center;
+
+}
+
+.article-footer image{
+  width:258px;
+  height:115px;
 }

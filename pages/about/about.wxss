@@ -1,0 +1,5 @@
+/* pages/about/about.wxss */
+.make-poster{
+  display:flex;
+  justify-content: center;
+}

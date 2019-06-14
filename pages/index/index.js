@@ -70,6 +70,14 @@ Page({
     wx.navigateTo({
       url: url,
     })
+  },
+
+  toPoster: function (e) {
+    
+    var url = '../canvas/canvas';
+    wx.navigateTo({
+      url: url,
+    })
   }
 
 })

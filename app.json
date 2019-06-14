@@ -1,13 +1,33 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/canvas/canvas",
+    "pages/about/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "每周测试资讯",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#9BABBA",
+    "selectedColor": "#333333",
+    "list":[
+    {
+      "pagePath":"pages/index/index",
+      "text":"入库测试",
+      "iconPath": "images/mobilephone.png",
+      "selectedIconPath": "images/mobilephone_fill.png"
+    },
+    {
+       "pagePath":"pages/about/about",
+       "text":"我的",
+       "iconPath": "images/people.png",
+       "selectedIconPath": "images/people_fill.png"
+    }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
